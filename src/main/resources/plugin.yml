@@ -1,0 +1,24 @@
+name: EnderSurvival
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Skills, classes, maps and bosses for a survival server.
+commands:
+  class:
+    description: Shows your current class or selects a new one.
+    usage: /class <name>
+  classes:
+    description: Lists all available classes.
+    usage: /classes
+  skill:
+    description: Shows your skill levels.
+    usage: /skill
+  skills:
+    description: Lists all available skills.
+    usage: /skills
+  boss:
+    description: Shows boss spawn information.
+    usage: /boss
+  farm:
+    description: Teleports you to the Farming World.
+    usage: /farm

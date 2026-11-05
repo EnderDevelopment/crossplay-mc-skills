@@ -1,0 +1,18 @@
+# EnderSurvival configuration
+skills:
+  # Maximum level a player can reach in a skill.
+  max-level: 100
+
+bosses:
+  # How many map bosses spawn on the Boss World every interval.
+  map-boss-count: 3
+  # How often the map bosses spawn, in minutes.
+  map-spawn-interval-minutes: 10
+  # How many world bosses spawn in the overworld per day.
+  world-bosses-per-day: 2
+
+maps:
+  # Name of the Farming World.
+  farming-world: farming
+  # Name of the Boss World.
+  boss-world: boss
